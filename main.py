@@ -2,13 +2,13 @@ import telebot
 import json
 import os
 
-TOKEN = '7687327295:AAHeXPoQRIRJgcb1LU9pULX8PWO2IxQoUko'  # <-- bu yerga o'z Telegram bot tokeningizni yozing
+TOKEN = '7521283553:AAGLZkgcRdEyOaGeKOPrWa2glfUEetjNv_8'  # <-- bu yerga o'z Telegram bot tokeningizni yozing
 bot = telebot.TeleBot(TOKEN)
 
 DATA_FILE = 'data.json'
 
 # --- ADMINLAR RO'YXATI (shu yerga admin ID yozing) ---
-ADMIN_IDS = [6855997739]  # <--- BU YERGA O'Z TELEGRAM ID’NGIZNI YOZING
+ADMIN_IDS = [5101972399]  # <--- BU YERGA O'Z TELEGRAM ID’NGIZNI YOZING
 
 
 # --- JSON yuklash va saqlash ---
